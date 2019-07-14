@@ -1,0 +1,69 @@
+.card-margin{
+  margin-top: 30px;
+}
+
+html { 
+	background-color:#FFFFFF
+}
+
+body{
+  background: none;
+  color: #151515;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+strong {
+  color: #A4A4A4
+}
+
+.navbar {
+  background: #0B0B61;
+}
+
+.btn {
+  font-weight: 900;
+}
+
+.btn-primary {
+  background: #e16879;
+  border-color: #e16879;
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+}
+
+.card {
+  border-color: #ccc;
+}
+
+.card-title {
+  color: #0B0B61;
+  font-weight: 300;
+}
+
+.card-block small {
+  float: right;
+}
+
+.description {
+  background-image: url("corp.jpg");
+  background-repeat: repeat-x;
+}
+
+/* Additional stuff for index.html page */
+.background-box {
+  background-image: url("../img/corp.jpg");
+  background-size: cover;
+  color: black;
+  width:100%;
+  height:100%;
+}
+
+a:not([href]):not([tabindex]) { 
+	color:white;
+ }
